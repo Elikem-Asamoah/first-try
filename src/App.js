@@ -23,7 +23,7 @@ function App() {
     let currentNum=document.querySelector('#num').value
     if(currentNum==='')
     return;
-    let sum= currentSum+parseInt(currentNum);
+    let sum=currentSum+parseInt(currentNum);
     setCurrentSum(sum);
     document.querySelector('#num').value="";
   
